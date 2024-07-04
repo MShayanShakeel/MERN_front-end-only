@@ -38,3 +38,36 @@
   padding: 4rem 0px 0rem 0px;
   margin: 0px 0px 6rem 0px;
 }
+
+@media screen and (max-width: 700px) {
+  .banner1-main-images-second {
+    display: grid;
+    margin-bottom: 2rem;
+    padding: 2rem 0px 0rem 0px;
+  }
+  .banner1-second {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .banner1-images img {
+    width: 150px;
+    max-width: 170px;
+    height: 5vh;
+    max-height: 6vh;
+  }
+  .banner1-images {
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+    border: 1px solid;
+    padding: 1rem;
+    border-radius: 10px;
+  }
+  .banner1-main-images {
+    overflow: auto;
+    gap: 2rem;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    justify-content: start;
+    padding: 2rem 0px 0rem 0px;
+  }
+}

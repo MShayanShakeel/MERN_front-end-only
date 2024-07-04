@@ -11,7 +11,7 @@
   margin: 5rem 0rem 2rem 0rem;
 }
 .banner2-main-second {
-  padding: 3rem 2rem 3rem 2rem;
+  padding: 0rem 2rem 1rem 2rem;
 }
 .banner2-shoes-main {
   padding: 2rem 0px 2rem 0px;
@@ -40,4 +40,16 @@
   justify-content: start;
   align-items: center;
   gap: 1px;
+}
+
+@media screen and (max-width: 700px) {
+  .banner2-main-first h1 {
+    font-weight: 600;
+    margin: 1.3rem 0rem 1rem 0rem;
+    text-align: center;
+    font-size: 40px;
+  }
+  .banner2-main-second {
+    padding: 0rem 2rem 1rem 2rem;
+  }
 }

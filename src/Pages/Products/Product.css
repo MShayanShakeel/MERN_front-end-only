@@ -16,6 +16,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 1rem;
 }
 .Product-search {
   padding: 8px;
@@ -49,4 +50,11 @@
 }
 .Action-icons svg:hover {
   color: #0d68bb;
+}
+
+@media screen and (max-width: 700px) {
+  .Product-list-Second h2 {
+    font-size: 16px;
+    font-weight: 700;
+  }
 }

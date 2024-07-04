@@ -10,23 +10,23 @@ const LimiterOffer = () => {
   return (
     <>
       <div className="row LimiterOffer-main">
-        <div className="LimiterOffer-second"> 
-        <div className="col-6 LimiterOfferpic-second">
-          <div className="gap-content">
-            <h5>Limited Time Offer</h5>
-            <h1>Special Edition</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-              nobis quod deserunt nam enim, sint dolore quaerat asperiores
-              suscipit placeat.
-            </p>
-            <h5>Buy This T-shirt At 20% Discount, Use Code OFF20</h5>
-            <button className="home-button-white">SHOP NOW</button>
+        <div className="LimiterOffer-second">
+          <div className="col-6 LimiterOfferpic-second">
+            <div className="gap-content">
+              <h5>Limited Time Offer</h5>
+              <h1>Special Edition</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Sapiente nobis quod deserunt nam enim, sint dolore quaerat
+                asperiores suscipit placeat.
+              </p>
+              <h5>Buy This T-shirt At 20% Discount, Use Code OFF20</h5>
+              <button className="home-button-white">SHOP NOW</button>
+            </div>
           </div>
-        </div>
-        <div className="col-6 LimiterOfferpic-second-img">
-          <img src={LimiterOfferpic} alt="" />
-        </div>
+          <div className="col-6 LimiterOfferpic-second-img">
+            <img src={LimiterOfferpic} alt="" />
+          </div>
         </div>
         <div className="limitedOffer-icons-main">
           <div className="Limited-vertical-center">

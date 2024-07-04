@@ -5,7 +5,6 @@ import Aboutus from "../../images/Aboutus.jpg";
 import aboutSecond from "../../images/istockphoto-1286378180-612x612-removebg-preview.png";
 
 const About = () => {
-  
   return (
     <div
       style={{
@@ -21,7 +20,7 @@ const About = () => {
 
       <div className="row aboutUs-main">
         <h1 style={{ textAlign: "center" }}>About Us</h1>
-        <div className="col-6 aboutus-text">
+        <div className="col-md-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 aboutus-text">
           <p>
             Welcome to [Your E-commerce Name], your ultimate destination for
             trendy and affordable fashion! At [Your E-commerce Name], we're

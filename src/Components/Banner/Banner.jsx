@@ -5,8 +5,8 @@ import home from "../../images/home.png";
 const Banner = () => {
   return (
     <>
-      <div className="row home-main">
-        <div className="col-5 home-main-left">
+      <div className="row  home-main">
+        <div className="col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5  home-main-left">
           <div className="home-context-main">
             <div className="home-content">
               <h1>Raining Offers For Hot Summer!</h1>

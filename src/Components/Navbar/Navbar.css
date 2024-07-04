@@ -21,7 +21,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 50%;
 }
 .left-postion ul {
   display: flex;
@@ -31,15 +30,13 @@
 .Right-postion {
   display: flex;
   justify-content: space-between;
+  gap: 2rem;
   align-items: center;
-  width: 35%;
 }
 .Right-postion button {
   margin-left: 1rem;
 }
-.about-us {
-  color: #fffdfd;
-}
+
 ul li {
   display: inline-block;
   margin-right: 20px;
@@ -54,4 +51,52 @@ dl,
 ol,
 ul {
   margin-bottom: 0px !important;
+}
+
+.left-postion img {
+  display: none;
+}
+.mobile-responcive {
+  display: none;
+}
+.about-us{
+  color: #fff;
+}
+/* MOBILE RESPONCCIVE STYLING START  */
+@media screen and (max-width: 700px) {
+  .left-postion ul {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border: 1px solid;
+    position: absolute;
+    left: 0.5rem;
+    top: 3rem;
+    padding: 5px 0px 5px 1rem !important;
+    border-radius: 10px;
+    background-color: #165e80;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  ul li {
+    text-align: center;
+  }
+  ul li:hover {
+    background: #fff;
+    color: #0085da !important;
+    border-radius: 10px;
+    padding: 2px;
+  }
+  .left-postion img {
+    width: 40px;
+    display: block;
+  }
+  .mobile-responcive {
+    display: flex;
+  }
+  .web-responcive {
+    display: none;
+  }
 }

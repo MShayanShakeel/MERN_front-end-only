@@ -34,3 +34,9 @@
   color: white;
   margin-top: 5px;
 }
+
+@media screen and (max-width: 700px) {
+  .contact-second {
+    width: 90%;
+  }
+}

@@ -46,15 +46,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        {/* <div className="Contact-social-icons">
-          <FaFacebook />
-          <FaYoutube />
-          <FaLinkedin />
-          <SiTransportforlondon />
-          <FaWhatsappSquare />
-        </div> */}
       </div>
-      <Footer />
     </>
   );
 };
